@@ -10,17 +10,17 @@ def main(a,b,c):
     """
     if a>b:
         if a<c:
-            return c-b
+            return a
         else:
             if c>b:
-                return a-b
+                return c
             else:
-                return a-c
+                return b
     else:
         if b<c:
-            return c-a
+            return b
         else:
             if c>a:
-                return b-a
+                return c
             else:
-                return b-c
+                return a

@@ -1,4 +1,4 @@
-def main(temp):
+def main(t):
     """
     Display the message according to the following temperature conditions given to you in Celsius:
     Use the elif statments.
@@ -13,4 +13,15 @@ def main(temp):
     Returns:
         str: return answer.
     """
-    return
+    if t<0:
+        return "Freezing"
+    elif t>0 and t<11:
+        return "Very Cold"
+    elif t>10 and t<21:
+        return "Cold"
+    elif t>20 and t<31:
+        return "Normal"
+    elif t>30 and t<41:
+        return "Hot"
+    elif t>40:
+        return "Very Hot"

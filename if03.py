@@ -8,4 +8,19 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    return
+    if a>b:
+        if a<c:
+            return c-b
+        else:
+            if c>b:
+                return a-b
+            else:
+                return a-c
+    else:
+        if b<c:
+            return c-a
+        else:
+            if c>a:
+                return b-a
+            else:
+                return b-c
